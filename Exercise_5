@@ -1,0 +1,30 @@
+Exercise 5: How to install jupiter notebook with miniconda
+
+Steps:
+
+1. At first, we have to download the latest miniconda package for our own operating system (for example Mac OS). 
+Download link:
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
+
+2. Then we have to open the terminal and go to the location where we downloaded the file and install the miniconda.
+Commands:
+pwd (to know the current directory)
+ls (to see the files we have in current directory)
+cd Downloads (to go to the location of the file)
+bash filename (to install miniconda)
+
+3. Now, we have to update miniconda 
+Commands:
+conda info (to check the information about miniconda)
+conda --version (to check the latest version we have in our system) 
+conda update conda (to update)
+
+4. Now, we have to install the latest python with miniconda
+Command:
+Conda install python version
+
+5. Finally we are ready to install jupiter notebook with miniconda
+Command:
+Conda install Jupiter notebook
+
+To open Jupiter notebook we have to just type jupiter notebook in terminal 
